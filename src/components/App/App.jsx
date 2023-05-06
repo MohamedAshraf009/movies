@@ -24,7 +24,7 @@ function App() {
     children:[
       {index:true,element:<ProtectedRoute  userData={userData}><Home/></ProtectedRoute>},
       {path:'movies',element:<ProtectedRoute  userData={userData}><Movies/></ProtectedRoute>},
-      {path:'movies',element:<ProtectedRoute  userData={userData}><Home/></ProtectedRoute>},
+      // {path:'movies',element:<ProtectedRoute  userData={userData}><Home/></ProtectedRoute>},
       {path:'tvshows',element:<ProtectedRoute userData={userData}><Tvshows/></ProtectedRoute>},
       {path:'profile',element:<ProtectedRoute userData={userData}><Profile userData={userData}/></ProtectedRoute>},
       {path:'details/:id/:mediaType',element:<ProtectedRoute userData={userData}><Details userData={userData}/></ProtectedRoute>},
